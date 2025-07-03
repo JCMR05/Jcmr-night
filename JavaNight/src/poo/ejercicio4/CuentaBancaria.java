@@ -38,7 +38,14 @@ public class CuentaBancaria {
     }
     
     public void retirar(double monto) {
-        if(monto <= 0) saldo -= monto;
+        if(monto <= saldo) saldo -= monto;
     }
     
+    public void transferencia(double monto1, double monto2) {
+        if(monto1 <= 0) saldo -= monto1;
+        
+        
+        
+        if(monto2 > 0) saldo += monto2;
+    }
 }

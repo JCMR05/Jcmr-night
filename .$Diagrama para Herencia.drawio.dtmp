@@ -1,0 +1,136 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Página-1" id="hhlR5t0uaH0dKOrasdA7">
+    <mxGraphModel dx="726" dy="1709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-16" value="Estudiantes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="90" width="160" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-17" value="- nombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-23" value="- carrera: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-24" value="- promedio: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-19" value="+ getNombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-26" value="+ getCarrera: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-27" value="+ getPromedio: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-28" value="+ setNombre: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="190" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-29" value="+ setCarrera: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="216" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-30" value="+ setPromedio: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-16" vertex="1">
+          <mxGeometry y="242" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-31" value="Profesores" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="90" width="170" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-33" value="- materiaAsignada: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="52" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-36" value="+ getNombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="60" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-37" value="+ getMateriaAsignada: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="88" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-38" value="+ getSueldo: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="114" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-39" value="+ setNombre: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="140" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-40" value="+ setMateriaAsignada: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="166" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-41" value="+ setSueldo: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-31" vertex="1">
+          <mxGeometry y="192" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-42" value="Coordinadores" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="90" width="210" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-44" value="- departamentoAsignado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-53" value="- bono: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-46" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="78" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-47" value="+ getNombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="86" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-48" value="+ getDepartamentoAsignado: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="114" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-49" value="+ getSueldo: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="140" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-54" value="+ getBono: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="166" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-50" value="+ setNombre: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="192" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-51" value="+ setDepartamentoAsignado: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="218" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-52" value="+ setSueldo: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="244" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-55" value="+ setBono: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-42" vertex="1">
+          <mxGeometry y="270" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=blockThin;startFill=0;endArrow=none;" parent="1" source="tyfIGJ__NxFW5DstZDZg-56" target="tyfIGJ__NxFW5DstZDZg-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-56" value="Empleado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-180" width="170" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-57" value="# nombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-56" vertex="1">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-59" value="# sueldo: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-56" vertex="1">
+          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-60" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="tyfIGJ__NxFW5DstZDZg-56" vertex="1">
+          <mxGeometry y="78" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-61" value="+ getNombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-56" vertex="1">
+          <mxGeometry y="86" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-63" value="+ getSueldo: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-56" vertex="1">
+          <mxGeometry y="114" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-64" value="+ setNombre: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-56" vertex="1">
+          <mxGeometry y="140" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-66" value="+ setSueldo: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tyfIGJ__NxFW5DstZDZg-56" vertex="1">
+          <mxGeometry y="166" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tyfIGJ__NxFW5DstZDZg-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classicThin;" parent="1" source="tyfIGJ__NxFW5DstZDZg-42" target="tyfIGJ__NxFW5DstZDZg-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -24,5 +24,5 @@ public class Profesor extends Empleado {
     public void setMateriasAsignadas(String materiasAsignadas) {
         this.materiasAsignadas = materiasAsignadas;
     }
-    
+
 }

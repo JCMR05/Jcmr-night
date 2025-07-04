@@ -26,7 +26,11 @@ public class Empleado {
         return sueldo;
     }
 
-    
-    
-    
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setSueldo(double sueldo) {
+        this.sueldo = sueldo;
+    }
 }

@@ -8,12 +8,12 @@ package poo.herencia.ejercicio1;
  *
  * @author SENA
  */
-public class Coordinadores extends Empleado {
+public class Coordinador extends Empleado {
     
     private String departamentoAsignado;
     private double bono;
 
-    public Coordinadores(String departamentoAsignado, double bono, String nombre, double sueldo) {
+    public Coordinador(String departamentoAsignado, double bono, String nombre, double sueldo) {
         super(nombre, sueldo);
         this.departamentoAsignado = departamentoAsignado;
         this.bono = bono;
@@ -34,7 +34,4 @@ public class Coordinadores extends Empleado {
     public void setBono(double bono) {
         this.bono = bono;
     }
-    
-    
-    
 }

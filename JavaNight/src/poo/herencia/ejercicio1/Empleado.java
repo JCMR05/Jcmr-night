@@ -33,4 +33,12 @@ public class Empleado {
     public void setSueldo(double sueldo) {
         this.sueldo = sueldo;
     }
+<<<<<<< HEAD
+
+    
+    
+    
+    
+=======
+>>>>>>> b7e502d8a7b008f3f4f74be2ad7b5a19e34c4d65
 }

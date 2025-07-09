@@ -2,12 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-<<<<<<< HEAD
-package banco;
-=======
-package poo.ejercicio3;
->>>>>>> b7e502d8a7b008f3f4f74be2ad7b5a19e34c4d65
 
+package banco;
 /**
  *
  * @author SENA
@@ -33,5 +29,14 @@ public class CuentaBancaria {
     public void mostrarInformacion(){
         System.out.println("Titular: " + titular);
         System.out.println("Saldo: " + saldo);
+    }
+    
+    public void depositar(double monto) {
+        if(monto > 0) saldo += monto;
+    }
+    
+    public void transferencia(CuentaBancaria recibidor, double cantidad){
+        this.retirar(cantidad);
+        recibidor.depositar(cantidad);
     }
 }

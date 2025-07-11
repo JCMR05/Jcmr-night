@@ -29,8 +29,8 @@ abstract class Forma{
 class Circulo extends Forma {
     double radio;
     public Circulo(double radio, String color){
-        this.radio = radio;
         super(color);
+        this.radio = radio;
     }
     
     @Override
@@ -46,9 +46,9 @@ class Circulo extends Forma {
 class Rectangulo extends Forma {
     double base, altura;
     public Rectangulo(double base, double altura, String color){
+        super(color);
         this.base = base;
         this.altura = altura;
-        super(color);
     }
     
     @Override
@@ -64,9 +64,9 @@ class Rectangulo extends Forma {
 class Triangulo extends Forma {
     double base, altura;
     public Triangulo(double base, double altura, String color){
+        super(color);
         this.base = base;
         this.altura = altura;
-        super(color);
     }
     
     @Override
@@ -83,10 +83,10 @@ class Triangulo extends Forma {
 class Trapecio extends Forma {
     double baseMayor, baseMenor, altura;
     public Trapecio(double baseMayor, double baseMenor, double altura, String color){
+        super(color);
         this.baseMayor = baseMayor;
         this.baseMenor = baseMenor;
         this.altura = altura;
-        super(color);
     }
     
     @Override
